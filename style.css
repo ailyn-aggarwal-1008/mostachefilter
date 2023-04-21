@@ -1,0 +1,19 @@
+h3{
+
+    font-size:25px
+}
+
+.btn-primary:hover{
+    background-color:beige;
+}
+
+canvas{
+    animation-name:shadow;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes shadow{
+    from{box-shadow: 1px 1px 38px rgb(0, 255, 229);}
+    to{box-shadow:1px 1px 38px rgb(72, 0, 255);}
+}
